@@ -50,10 +50,10 @@ async function run(){
 
 async function main(){
   while (true){
+    await sleep(1000)
     run()
     await sleep(10000)
     turtle.clear()
-    await sleep(1000)
   }
 }
 
